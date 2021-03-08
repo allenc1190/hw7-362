@@ -1,13 +1,13 @@
 def fizzBuzz(i):
 	if i % 3 == 0 and i % 5 == 0:
 		#print("FizzBuzz")
-		return "Buzz"
+		return "FizzBuzz"
 	elif i % 3 == 0:
 		#print("Fizz")
-		return "FizzBuzz"
+		return "Fizz"
 	elif i % 5 == 0:
 		#print("Buzz")
-		return "Fizz"
+		return "Buzz"
 	else:
 		#print(i)
 		return i
